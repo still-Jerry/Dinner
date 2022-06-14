@@ -19,6 +19,7 @@
 		27D2C8D4285882D500D380B5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2C8CD285882D400D380B5 /* Helper.swift */; };
 		27D2C8D6285891BD00D380B5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2C8D5285891BD00D380B5 /* OrderView.swift */; };
 		27D2C8D82858932400D380B5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2C8D72858932400D380B5 /* MainView.swift */; };
+		27D2C8DA2858986700D380B5 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2C8D92858986700D380B5 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		27D2C8CD285882D400D380B5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../Bullseye_try/Bullseye_try/Helper.swift; sourceTree = "<group>"; };
 		27D2C8D5285891BD00D380B5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		27D2C8D72858932400D380B5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		27D2C8D92858986700D380B5 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				27D2C8B92858824200D380B5 /* DinnerApp.swift */,
 				27D2C8BB2858824200D380B5 /* ContentView.swift */,
+				27D2C8D92858986700D380B5 /* CheckoutView.swift */,
 				27D2C8BD2858824B00D380B5 /* Assets.xcassets */,
 				27D2C8CD285882D400D380B5 /* Helper.swift */,
 				27D2C8C8285882D200D380B5 /* ItemDetail.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				27D2C8CE285882D500D380B5 /* ItemRow.swift in Sources */,
 				27D2C8D82858932400D380B5 /* MainView.swift in Sources */,
+				27D2C8DA2858986700D380B5 /* CheckoutView.swift in Sources */,
 				27D2C8D6285891BD00D380B5 /* OrderView.swift in Sources */,
 				27D2C8CF285882D500D380B5 /* ItemDetail.swift in Sources */,
 				27D2C8D3285882D500D380B5 /* Menu.swift in Sources */,
