@@ -26,18 +26,14 @@ struct CheckoutView: View {
                         Text($0)
                        
                     }
-                    Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
-                    if addLoyaltyDetails {
-                        TextField("Enter your iDine ID", text: $loyaltyNumber)
-                    }
+                    
+                }
+                Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
+                if addLoyaltyDetails {
+                    TextField("Enter your iDine ID", text: $loyaltyNumber)
                 }
             }
-            Section {
-                NavigationLink(destination: CheckoutView()) {
-
-                    Text("Place Order")
-                }
-            }.disabled(order.items.isEmpty)
+          
             Section(header: Text("Add a tip?")) {
                 Picker("Percentage:", selection: $tipAmount) {
                     ForEach(tipAmounts, id: \.self) {
