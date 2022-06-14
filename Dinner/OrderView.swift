@@ -21,15 +21,22 @@ struct OrderView: View {
                                 Spacer()
                                 Text("$\(item.price)")
                             }
-                        }
+                        } .onDelete(perform: deleteItems)
                     }
 
                    
                 }
                 .navigationTitle("Order")
                 .listStyle(InsetGroupedListStyle())
+                .toolbar {
+                    EditButton()
+                }
             }
-        }}
+        }
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
+    }
+}
 
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {

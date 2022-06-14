@@ -37,7 +37,7 @@ struct CheckoutView: View {
 
                     Text("Place Order")
                 }
-            }
+            }.disabled(order.items.isEmpty)
             Section(header: Text("Add a tip?")) {
                 Picker("Percentage:", selection: $tipAmount) {
                     ForEach(tipAmounts, id: \.self) {
@@ -47,7 +47,7 @@ struct CheckoutView: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
             Section(header:
-                Text("TOTAL: \(totalPrice)")
+                Text("TOTAL: \(totalPrice)").font(.largeTitle)
             ) {
                 Button("Confirm order") {
                     showingPaymentAlert.toggle()
