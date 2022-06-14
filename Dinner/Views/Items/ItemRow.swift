@@ -3,7 +3,7 @@
 //  Bullseye_try
 //
 //  Created by Anatolich Mixaill on 07.06.2022.
-//
+// gjghj
 
 import SwiftUI
 
